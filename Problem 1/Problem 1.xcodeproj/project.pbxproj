@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2516A9B42222A23A00C31ACA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2516A9B32222A23A00C31ACA /* main.swift */; };
+		2516A9BC2222A63A00C31ACA /* Problem 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2516A9BB2222A63A00C31ACA /* Problem 2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		2516A9B02222A23A00C31ACA /* Problem 1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem 1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2516A9B32222A23A00C31ACA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2516A9BB2222A63A00C31ACA /* Problem 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem 2.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 		2516A9A72222A23A00C31ACA = {
 			isa = PBXGroup;
 			children = (
+				2516A9BA2222A61F00C31ACA /* Problem 2 */,
 				2516A9B22222A23A00C31ACA /* Problem 1 */,
 				2516A9B12222A23A00C31ACA /* Products */,
 			);
@@ -60,6 +63,14 @@
 				2516A9B32222A23A00C31ACA /* main.swift */,
 			);
 			path = "Problem 1";
+			sourceTree = "<group>";
+		};
+		2516A9BA2222A61F00C31ACA /* Problem 2 */ = {
+			isa = PBXGroup;
+			children = (
+				2516A9BB2222A63A00C31ACA /* Problem 2.swift */,
+			);
+			path = "Problem 2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2516A9B42222A23A00C31ACA /* main.swift in Sources */,
+				2516A9BC2222A63A00C31ACA /* Problem 2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
